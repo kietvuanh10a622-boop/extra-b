@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Projects - Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projects | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/favicon.png">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="logo">MyPortfolio</div>
+    <ul class="nav-links">
+        <li><a href="index.html" class="nav-item">Home</a></li>
+        <li><a href="about.html" class="nav-item">About</a></li>
+        <li><a href="projects.html" class="nav-item" id="nav-projects">Projects</a></li>
+        <li><a href="contact.html" class="nav-item">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="projects-grid">
+
+    <div class="project-card">
+        <img src="assets/proj1.jpg" alt="">
+        <h3>Project 1</h3>
+        <p>A simple Python CLI application.</p>
+        <a href="#" class="btn">Details</a>
+    </div>
+
+    <div class="project-card">
+        <img src="assets/proj2.jpg" alt="">
+        <h3>Project 2</h3>
+        <p>Responsive personal website design.</p>
+        <a href="#" class="btn">Details</a>
+    </div>
+
+    <div class="project-card">
+        <img src="assets/proj3.jpg" alt="">
+        <h3>Project 3</h3>
+        <p>Basic JavaScript interactive demo.</p>
+        <a href="#" class="btn">Details</a>
+    </div>
+
+</section>
+
+<script>
+    document.getElementById("nav-projects").classList.add("active");
+</script>
+
+</body>
+</html>
